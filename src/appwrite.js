@@ -4,7 +4,7 @@ import { Client, Databases, Query } from 'appwrite';
 const client = new Client();
 
 client
-  .setEndpoint('https://cloud.appwrite.io/v1') // ✅ Appwrite cloud endpoint
+  .setEndpoint('https://nyc.cloud.appwrite.io/v1') // ✅ Appwrite cloud endpoint
   .setProject('6875ffa60033f53f397b');              // 🔁 Replace with your Appwrite project ID
 
 // ✅ 2. Connect to Databases API
